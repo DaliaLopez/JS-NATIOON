@@ -116,6 +116,38 @@ nav ul li a {
     color: black;
 }
 
+/* MY FAVORITES */
+
+.favorites h1 {
+    font-family: "MiFuente2", sans-serif;
+    padding: 80px;
+    font-size: 35px;
+}
+
+.products-favorites {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 columnas */
+    gap: 0px;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: -40px;
+}
+
+.product {
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
 /* CATALOGO */
 
 .catalog {
